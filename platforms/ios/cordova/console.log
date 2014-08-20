@@ -988,3 +988,11 @@ Terminating in response to SpringBoard's termination.
 2014-08-20 16:38:34.610 LyftCalc[12982:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73FC24C0-33AE-462E-A929-DFB3A42A430F/LyftCalc.app/www/index.html
 2014-08-20 16:38:35.926 LyftCalc[12982:70b] Resetting plugins due to page load.
 2014-08-20 16:38:35.983 LyftCalc[12982:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73FC24C0-33AE-462E-A929-DFB3A42A430F/LyftCalc.app/www/ny.html
+2014-08-20 16:40:03.650 LyftCalc[13202:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-20 16:40:03.660 LyftCalc[13202:70b] Unlimited access to network resources
+2014-08-20 16:40:03.682 LyftCalc[13202:70b] [CDVTimer][keyboard] 0.088990ms
+2014-08-20 16:40:03.682 LyftCalc[13202:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-20 16:40:03.683 LyftCalc[13202:70b] [CDVTimer][statusbar] 0.486970ms
+2014-08-20 16:40:03.683 LyftCalc[13202:70b] [CDVTimer][TotalPluginStartup] 1.540005ms
+2014-08-20 16:40:03.809 LyftCalc[13202:70b] Resetting plugins due to page load.
+2014-08-20 16:40:04.208 LyftCalc[13202:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73FC24C0-33AE-462E-A929-DFB3A42A430F/LyftCalc.app/www/index.html
