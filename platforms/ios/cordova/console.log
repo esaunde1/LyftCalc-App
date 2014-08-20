@@ -224,3 +224,54 @@
 2014-08-20 10:57:46.828 myApp[4436:70b] [CDVTimer][TotalPluginStartup] 1.736999ms
 2014-08-20 10:57:47.025 myApp[4436:70b] Resetting plugins due to page load.
 2014-08-20 10:57:47.353 myApp[4436:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-08-20 11:05:03.044 myApp[4723:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-20 11:05:03.054 myApp[4723:70b] Unlimited access to network resources
+2014-08-20 11:05:03.076 myApp[4723:70b] [CDVTimer][keyboard] 0.088990ms
+2014-08-20 11:05:03.077 myApp[4723:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-20 11:05:03.077 myApp[4723:70b] [CDVTimer][statusbar] 0.487030ms
+2014-08-20 11:05:03.078 myApp[4723:70b] [CDVTimer][TotalPluginStartup] 1.596987ms
+2014-08-20 11:05:03.201 myApp[4723:70b] Resetting plugins due to page load.
+2014-08-20 11:05:03.520 myApp[4723:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:06:43.835 myApp[4940:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-20 11:06:43.845 myApp[4940:70b] Unlimited access to network resources
+2014-08-20 11:06:43.868 myApp[4940:70b] [CDVTimer][keyboard] 0.102997ms
+2014-08-20 11:06:43.869 myApp[4940:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-20 11:06:43.869 myApp[4940:70b] [CDVTimer][statusbar] 0.495017ms
+2014-08-20 11:06:43.870 myApp[4940:70b] [CDVTimer][TotalPluginStartup] 1.670003ms
+2014-08-20 11:06:44.001 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:06:44.311 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:06:47.143 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:06:47.191 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/ny.html
+2014-08-20 11:07:08.358 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:08.388 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:07:11.325 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:11.362 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/la.html
+2014-08-20 11:07:39.805 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:39.872 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:07:41.326 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:41.358 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/la.html
+2014-08-20 11:07:56.391 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:56.420 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:07:57.710 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:07:57.745 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/sf.html
+2014-08-20 11:08:00.971 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:00.998 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:08:03.568 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:03.600 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/sf.html
+2014-08-20 11:08:24.614 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:24.646 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:08:25.539 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:25.575 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/ny.html
+2014-08-20 11:08:29.542 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:29.572 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:08:35.501 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:35.537 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/ny.html
+2014-08-20 11:08:43.471 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:43.499 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:08:45.791 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:45.827 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/ny.html
+2014-08-20 11:08:59.614 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:08:59.644 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/index.html
+2014-08-20 11:09:02.222 myApp[4940:70b] Resetting plugins due to page load.
+2014-08-20 11:09:02.258 myApp[4940:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1AA969FD-2E8C-48CF-92CF-9E81DA224825/myApp.app/www/la.html
