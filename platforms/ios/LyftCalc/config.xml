@@ -28,12 +28,12 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
-    <name>myApp</name>
+    <name>LyftCalc</name>
     <description>
-        An Ionic Framework and Cordova project.
+        Calculate your Lyft fare!
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="howdy@createdbydope.com" href="www.lyftcalc.com">
+      createdbyDOPE
     </author>
     <content src="index.html" />
     <access origin="*" />

@@ -1,6 +1,15 @@
 /*Homepage CSS*/
 
+#associated {
+	text-align: center;
+/*	text-shadow:.1em .1em black;
+*/	font-weight: 600;
+	font-size: 18px
+}
 
+#italics {
+	font-style: italic;
+}
 
 .cityName:hover {
 	-ms-transform: translate(3px, 0px); 
@@ -54,7 +63,8 @@ padding-bottom: 10px
 	width: 100%;
 	text-align: center;
 	margin: auto;
-	height: 100%
+	height: 305px;
+	margin-bottom: 30px
 }
 
 .cityWell {
