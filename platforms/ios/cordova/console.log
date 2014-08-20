@@ -816,3 +816,22 @@ Terminating in response to SpringBoard's termination.
 2014-08-20 13:18:54.393 LyftCalc[33738:70b] [CDVTimer][TotalPluginStartup] 1.260996ms
 2014-08-20 13:18:54.501 LyftCalc[33738:70b] Resetting plugins due to page load.
 2014-08-20 13:18:54.761 LyftCalc[33738:70b] Finished load of: file:///Users/ericsaunders/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/25D95DE0-392D-4D9D-94CE-4E60BE055255/LyftCalc.app/www/index.html
+2014-08-20 15:19:57.993 LyftCalc[9135:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-20 15:19:58.191 LyftCalc[9135:70b] Unlimited access to network resources
+2014-08-20 15:19:58.220 LyftCalc[9135:70b] Fix applied for database locations?: YES
+2014-08-20 15:19:59.956 LyftCalc[9135:70b] [CDVTimer][keyboard] 10.185003ms
+2014-08-20 15:19:59.957 LyftCalc[9135:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-20 15:19:59.957 LyftCalc[9135:70b] [CDVTimer][statusbar] 0.404000ms
+2014-08-20 15:19:59.958 LyftCalc[9135:70b] [CDVTimer][TotalPluginStartup] 11.675000ms
+2014-08-20 15:20:00.265 LyftCalc[9135:70b] Resetting plugins due to page load.
+2014-08-20 15:20:01.111 LyftCalc[9135:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73FC24C0-33AE-462E-A929-DFB3A42A430F/LyftCalc.app/www/index.html
+2014-08-20 15:20:19.581 LyftCalc[9135:70b] Received memory warning.
+2014-08-20 15:21:54.796 LyftCalc[9390:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-20 15:21:54.806 LyftCalc[9390:70b] Unlimited access to network resources
+2014-08-20 15:21:54.838 LyftCalc[9390:70b] [CDVTimer][keyboard] 0.088990ms
+2014-08-20 15:21:54.839 LyftCalc[9390:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-20 15:21:54.839 LyftCalc[9390:70b] [CDVTimer][statusbar] 0.515044ms
+2014-08-20 15:21:54.840 LyftCalc[9390:70b] [CDVTimer][TotalPluginStartup] 1.747012ms
+2014-08-20 15:21:54.957 LyftCalc[9390:70b] Resetting plugins due to page load.
+2014-08-20 15:21:55.406 LyftCalc[9390:70b] Finished load of: file:///Users/Dennis/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/73FC24C0-33AE-462E-A929-DFB3A42A430F/LyftCalc.app/www/index.html
+2014-08-20 15:22:11.540 LyftCalc[9390:70b] Received memory warning.
