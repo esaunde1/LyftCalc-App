@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>LyftCalc</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+<!--     IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">    
+    <link href="css/style.css" rel="stylesheet">
+
+
+   
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+  </head>
+
+<body>
+  <section class='cities'>
+
+	<a href="index.html">
+		<h1 class='cityName'>New York</h1>
+	</a>
+	
+	<div class="container">
+		<div class="row">
+	      <div class="col-md-8 col-md-offset-2">
+	        <div class="well well-sm cityWell">
+	          <form class="form-horizontal" action="send_form_email.php" method="post">
+	          <fieldset>
+
+	            <!-- Miles input-->
+	            <div class="form-group">
+	              <label class="col-sm-4 control-label" for="name">Estimated Miles</label>
+	              <div class="col-sm-8">
+	                <input id="miles" name="miles" type="tel" placeholder="Estimated Miles" class="form-control">
+	              </div>
+	            </div>
+	    
+
+	            <!-- Minutes input-->
+	            <div class="form-group">
+	              <label class="col-sm-4 control-label" for="minutes">Estimated Minutes</label>
+	              <div class="col-sm-8">
+	                <input id="minutes" name="minutes" type="tel" placeholder="Estimated Minutes" class="form-control">
+	              </div>
+	            </div>
+	    
+
+
+	            <!-- Tip Dropdown -->
+	            <div class="form-group">
+	              <label class="col-sm-4 control-label" for="tip">Tip %</label>
+	              <div class="col-sm-8">
+                    <select id="percentage">
+                        <option value="0">0%</option>
+                        <option value ="25">25%</option>
+                        <option value="50"> 50%</option>
+                        <option value="75">75%</option>
+                    </select>
+	              </div>
+	            </div>
+	            <div id='results'>
+		           <h3>Your fare costs $<span id='total'></span></h3>
+		           <h2><span id='coupon'></span></h2>
+	           </div>
+	          </fieldset>
+	          </form>
+	        </div>
+	      </div>
+		</div>
+	</div>
+  </section>
+
+
+<script>
+
+$('#miles, #minutes, #percentage').click(function () {
+	var miles = parseInt($('#miles').val()) || 0;
+	var minutes = parseInt($('#minutes').val()) || 0;
+    var tip = parseInt($('#percentage').val()) || 0;
+	var total = (3 + ((2.15 * miles) + (0.4 * minutes))); 
+    
+    if (total < 8){
+		total = 8
+	}
+    
+    var totalPlusTip = Math.ceil(total + (((total-3)*tip) / 100 ));
+	$('#total').text(totalPlusTip);
+
+});
+</script>
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53962714-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
