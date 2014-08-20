@@ -30,6 +30,10 @@
   </head>
 
 <body>
+
+	 <!-- jquery -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  
   <section class='cities'>
   
   	<a href="index.html">
@@ -90,7 +94,7 @@
 
 <script>
 
-$('#miles, #minutes, #percentage').on('change keyup paste', function () {
+$('#miles, #minutes, #percentage').keypress(function() {
 	var miles = parseInt($('#miles').val()) || 0;
 	var minutes = parseInt($('#minutes').val()) || 0;
     var tip = parseInt($('#percentage').val()) || 0;
