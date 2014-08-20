@@ -15,14 +15,14 @@
 	font-style: italic;
 }
 
-.cityName:hover {
+/*.cityName:hover {
 	-ms-transform: translate(3px, 0px); 
     -webkit-transform: translate(3px, 0px); 
     transform: translate(3px, 0px);
 }
-
+*/
 .cityName {
-	font-size: 72px;
+	font-size: 48px;
 	font-family: 'Lobster', cursive;
 	color: #FFFFFF;
 	text-shadow:1px 1px black;
@@ -73,7 +73,7 @@ padding-bottom: 10px
 
 .cityWell {
 	width:100%;
-	padding: 10px 10px;
+	padding: -30px 10px;
 	margin: auto
 
 }
@@ -128,7 +128,7 @@ form input {
 #total {
 	font-weight: 900;
 	font-size: 30px;
-	color:red;
+	color:black;
 }
 
 /*Tip Calc CSS End*/
