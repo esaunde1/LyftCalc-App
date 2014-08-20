@@ -15,7 +15,8 @@
     <link href="css/style.css" rel="stylesheet">
 
 
-   
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -40,55 +41,50 @@
 		<h1 class='cityName'>Los Angeles</h1>
 	</a>
 
+      <div class="col-md-8 col-md-offset-2">
+        <div class="well well-sm cityWell">
+          <form class="form-horizontal" action="send_form_email.php" method="post">
+          <fieldset>
 
-	<div class="container">
-		<div class="row">
-	      <div class="col-md-8 col-md-offset-2">
-	        <div class="well well-sm cityWell">
-	          <form class="form-horizontal" action="send_form_email.php" method="post">
-	          <fieldset>
+            <!-- Miles input-->
+            <div class="form-group">
+              <label class="col-sm-4 control-label" for="name">Estimated Miles</label>
+              <div class="col-sm-8">
+                <input id="miles" name="miles" type="tel" placeholder="Estimated Miles" class="form-control">
+              </div>
+            </div>
+    
 
-	            <!-- Miles input-->
-	            <div class="form-group">
-	              <label class="col-sm-4 control-label" for="name">Estimated Miles</label>
-	              <div class="col-sm-8">
-	                <input id="miles" name="miles" type="tel" placeholder="Estimated Miles" class="form-control">
-	              </div>
-	            </div>
-	    
-
-	            <!-- Minutes input-->
-	            <div class="form-group">
-	              <label class="col-sm-4 control-label" for="minutes">Estimated Minutes</label>
-	              <div class="col-sm-8">
-	                <input id="minutes" name="minutes" type="tel" placeholder="Estimated Minutes" class="form-control">
-	              </div>
-	            </div>
-	    
+            <!-- Minutes input-->
+            <div class="form-group">
+              <label class="col-sm-4 control-label" for="minutes">Estimated Minutes</label>
+              <div class="col-sm-8">
+                <input id="minutes" name="minutes" type="tel" placeholder="Estimated Minutes" class="form-control">
+              </div>
+            </div>
+    
 
 
-	            <!-- Tip Dropdown -->
-	            <div class="form-group">
-	              <label class="col-sm-4 control-label" for="tip">Tip %</label>
-	              <div class="col-sm-8">
-                    <select id="percentage">
-                        <option value="0">0%</option>
-                        <option value ="25">25%</option>
-                        <option value="50"> 50%</option>
-                        <option value="75">75%</option>
-                    </select>
-	              </div>
-	            </div>
-	            <div id='results'>
-		           <h3>Your fare costs $<span id='total'></span></h3>
-		           <h2><span id='coupon'></span></h2>
-	           </div>
-	          </fieldset>
-	          </form>
-	        </div>
-	      </div>
-		</div>
-	</div>
+            <!-- Tip Dropdown -->
+            <div class="form-group">
+              <label class="col-sm-4 control-label" for="tip">Tip %</label>
+              <div class="col-sm-8">
+                <select id="percentage">
+                    <option value="0">0%</option>
+                    <option value ="25">25%</option>
+                    <option value="50"> 50%</option>
+                    <option value="75">75%</option>
+                </select>
+              </div>
+            </div>
+            <div id='results'>
+	           <h3>Your fare costs $<span id='total'></span></h3>
+	           <h2><span id='coupon'></span></h2>
+           </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
   </section>
 
 

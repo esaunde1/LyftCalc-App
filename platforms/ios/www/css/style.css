@@ -8,13 +8,15 @@
     transform: translate(3px, 0px);
 }
 
-h2{
+.cityName {
+	font-size: 72px;
+	font-family: 'Lobster', cursive;
+	color: #FFFFFF;
+	text-shadow:1px 1px black;
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
 
-font-size: 48px;
-font-family:'Lobster', cursive;
-color:#000;
-text-align:center;
-padding-bottom: 40px
 }
 
 .cities{
@@ -22,9 +24,22 @@ padding-bottom: 40px
 	background-color: #00b4ae;
 	height: 100%;
 	width: 100%;
-	padding:30px 50px;
-	font-family: 'Ubuntu', sans-serif;
+	padding:30px;
 	overflow: scroll
+}
+
+.cityWell input {
+	text-align: center;
+}
+
+.cities h2{
+
+font-size: 48px;
+font-family:'Lobster', cursive;
+color:#000;
+text-align:center;
+padding-bottom: 10px
+
 }
 
 .btn{
@@ -43,7 +58,10 @@ padding-bottom: 40px
 }
 
 .cityWell {
-	width:155%;
+	width:100%;
+	padding: 10px 10px;
+	margin: auto
+
 }
 
 .btnCity {
@@ -58,15 +76,14 @@ a:link {
 
 /*Tip Calc CSS Begin*/
 
-.cities h1 {
+#mainTitle {
 	font-size: 72px;
 	font-family: 'Lobster', cursive;
 	color: #FFFFFF;
 	text-shadow:1px 1px black;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	width: 110%;
-
 }
 
 
@@ -96,7 +113,8 @@ form input {
 
 #total {
 	font-weight: 900;
-	font-size: 30px
+	font-size: 30px;
+	text-shadow: 1px 1px red;
 }
 
 /*Tip Calc CSS End*/
